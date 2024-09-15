@@ -1,0 +1,10 @@
+repos:
+- repo: local
+  hooks:
+    - id: cleanup
+      name: code-cleanup
+      entry: lint.sh
+      args: ["fix"]
+      language: script
+      types: [python]
+      pass_filenames: false
