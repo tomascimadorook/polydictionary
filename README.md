@@ -1,0 +1,2 @@
+# polydictionary
+Python dictionary wrapper
